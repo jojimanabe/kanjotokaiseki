@@ -1,0 +1,290 @@
+@charset "UTF-8";
+/* CSS Document */
+html{
+    overflow-x : hidden;
+    -webkit-overflow-scrolling: touch;
+}
+body{
+    overflow-x : hidden;
+	margin: 0;
+	padding: 0;
+	background-image: url("../image/bg.png");
+	background-size: 100% auto;
+	font-family: "Hiragino Mincho ProN", "serif";
+}
+
+p{
+	font-weight: bold;
+}
+
+.mv div{
+	display: inline-block;
+}
+
+.mv{
+	position: relative;
+	max-width: 100%;
+}
+
+.logo{
+	margin: -7px 0 0 -10px;
+}
+
+.scrl{
+	margin: 0px 20px 70px 40px;
+	position: absolute;
+	bottom: 0;
+}
+
+.icon{
+	margin: 0 0 65px 105px;
+	position: absolute;
+	bottom: 0;
+}
+
+.about{
+	width: 100%;
+	margin-top: 30px;
+}
+
+.about div{
+	position: relative;
+}
+
+.about img{
+	width: 100%;
+}
+
+.aboutb{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.concept{
+	background-color: #fcfcfc;
+	width: 90%;
+	margin: 15px 20px auto;
+	padding: 5px 0;
+	display: flex;
+}
+
+.concept img{
+	height: 188px;
+	width: 60px;
+}
+
+.concept p{
+	margin: 0 0 0 -10px;
+	line-height: 30px;
+	font-size: 18px;
+	letter-spacing: 0.05em;
+	padding: 33px 0 0 0;
+}
+
+.overview{
+	background-color: #fcfcfc;
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px 0;
+	display: flex;
+}
+
+.overview img{
+	height: 215px;
+	width: 60px;
+}
+
+.overview p{
+	margin: 0 0 0 -10px;
+	line-height: 31px;
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	padding: 15px 0 0 0;
+}
+
+.overview span{
+	border-bottom: 1px solid #000;
+}
+
+.flow{
+	background-color: #fcfcfc;
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px 0;
+	display: flex;
+}
+
+.gif{
+	margin: auto auto auto -30px;
+	width: 80%;
+	height: 80%;
+}
+
+.days{
+	background-color: #fcfcfc;
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px 0;
+	display: flex;
+	will-change: transform;
+}
+
+.sponsor-headding{
+	height: 183.02px;
+}
+
+.days ul{
+	margin: auto 0 auto -30px;
+	height: 140%;
+}
+
+.days li{
+	list-style: none;
+	margin: 7.5px 11px;
+	float: left;
+}
+
+.days ul img{
+	height: 20px;
+}
+
+.sponsor{
+	background-color: #fcfcfc;
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px 0;
+	display: flex;
+}
+
+.sponsor .userlocal img{
+	margin: 12px 0 auto 20px;
+}
+
+.footer{
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+
+.days-headding{
+	height: 591px;
+}
+
+.day img{
+	width: 70px;
+	margin: 0 0 65px 125px;
+	position: absolute;
+	bottom: -10px;
+}
+
+.deposition{
+	background-color: #fcfcfc;
+	width: 40%;
+	margin: 0 0 25px 20px;
+	padding: 5px 0;
+	display: inline-block;
+}
+
+img.testtube{
+	height: 250px;
+	margin-bottom: 30px;
+}
+
+.onephrase{
+	background-color: #fcfcfc;
+	width: 40%;
+	margin: 15px 0 auto 30px;
+	padding: 5px 0;
+	display: inline-block;
+}
+
+img.phrase{
+	height: 261px;
+	margin: auto 0 25px 10px;
+}
+
+.trend{
+	background-color: #fcfcfc;
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px 0;
+	display: flex;
+}
+
+.trend p{
+	margin: auto 0;
+    font-size: 13px;
+	line-height: 30px;
+}
+
+.trend p span{
+	border-bottom: 1px solid #D7D7D7;
+	padding-bottom: 6px;
+}
+
+.piechart{
+	background-color: #fcfcfc;
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px 0;
+	display: flex;
+}
+
+.chart{
+	height: 231px;
+	margin: auto 0;
+}
+
+.linegraph{
+	background-color: #fcfcfc;
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px 0;
+	display: flex;
+}
+
+.graph{
+	height: 204px;
+	margin: auto 0;
+}
+
+.study{
+	background-color: #fcfcfc;
+	width: 90%;
+	margin: 20px auto;
+	padding: 5px 0;
+	display: flex;
+}
+
+.study p{
+	font-size: 13px;
+	line-height: 25px;
+	letter-spacing: 0.05em;
+	margin: auto 0;
+}
+
+/*.cssgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 0.8em;
+  padding: 0.8em;
+  margin: 0 0 2em;
+}
+
+.cssgrid > div {
+    background: #fcfcfc;
+    overflow: auto;
+    min-width: 0;
+    padding: 2em 0em 2em 3em;
+}
+
+.concept{
+	font-size: 19px;
+	line-height: 36px;
+}
+
+.overview{
+	font-size: 15px;
+	line-height: 30px;
+}*/

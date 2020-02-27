@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("image/bg.png");
+	background-size: 100% auto;
+}
+
+div{
+	display: inline-block;
+}
+
+.logo{
+	margin: -7px 0 0 -10px;
+}
+
+.scrl{
+	margin: 0 20px 20px 20px;
+}
+
+.icon{
+	margin: 0 0 0 15px;
+}
