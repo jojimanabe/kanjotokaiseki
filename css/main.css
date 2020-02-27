@@ -231,8 +231,8 @@ img.phrase{
 }
 
 .chart{
-	height: 231px;
-	margin: auto 0;
+	height: 220px;
+	margin: auto 0 auto 20px;
 }
 
 .linegraph{
